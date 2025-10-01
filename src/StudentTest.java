@@ -5,9 +5,9 @@ public class StudentTest {
             Student s3 = StudentData.createS3();
             Student s4 = StudentData.createS4();
 
-            System.out.println(s1.getName() + " -> " + s1.getMajor());
-            System.out.println(s2.getName() + " -> " + s2.getMajor());
-            System.out.println(s3.getName() + " -> " + s3.getMajor());
-            System.out.println(s4.getName() + " -> " + s4.getMajor());
+            System.out.println(s1.getName() + " studies at " + s1.getMajor());
+            System.out.println(s2.getName() + " studies at " + s2.getMajor());
+            System.out.println(s3.getName() + " studies at " + s3.getMajor());
+            System.out.println(s4.getName() + " studies at " + s4.getMajor());
     }
 }

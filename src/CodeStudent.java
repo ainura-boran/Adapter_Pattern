@@ -7,6 +7,11 @@ public class CodeStudent {
         this.majorCode = majorCode;
     }
 
-    public String getName()      { return name; }
-    public String getMajorCode() { return majorCode; }
+    public String getName()      {
+        return name;
+    }
+
+    public String getMajorCode() {
+        return majorCode;
+    }
 }
